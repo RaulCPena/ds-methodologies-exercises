@@ -10,3 +10,14 @@ __pycache__
 
 .vscode/
 env.py
+
+evaluate-lesson-1.ipynb
+evaluate-lesson-2.ipynb
+evaluate_walkthrough.ipynb
+explore_walkthrough.ipynb
+feature_engineering_first_attempt.ipynb
+feature_engineering_walkthrough.ipynb
+pandas_profiling_test.ipynb
+split_scale_walkthrough.ipynb
+viz.py
+wrangle_walkthrough.ipynb
