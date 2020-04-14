@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 import env
+# new eddit s I can commit this properly
 
 def get_db_url(dbname) -> str:
     url = 'mysql+pymysql://{}:{}@{}/{}'
