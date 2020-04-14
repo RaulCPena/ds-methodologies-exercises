@@ -1,6 +1,3 @@
-# Our scenario continues:
-
-# As a customer analyst, I want to know who has spent the most money with us over their lifetime. I have monthly charges and tenure, so I think I will be able to use those two attributes as features to estimate total_charges. I need to do this within an average of $5.00 per customer.
 
 import pandas as pd
 import numpy as np
@@ -8,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, QuantileTransformer, PowerTransformer, RobustScaler, MinMaxScaler
 
 
-def split_my_data(df, train_pct=0.70, seed=123):
+def split_my_data(df, train_pct=0.80, seed=123):
     train, test = train_test_split(df, train_size=train_pct, random_state=seed)
     return train, test
 
