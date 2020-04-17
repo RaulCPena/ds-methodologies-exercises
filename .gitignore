@@ -4,6 +4,9 @@
 *.log
 .idea
 *.iml
+*.csv
+
+untidy
 
 .ipynb_checkpoints/
 __pycache__
