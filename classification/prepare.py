@@ -70,7 +70,7 @@ def ohe_columns(train, test):
     
     return ohe, train, test
 
-def prep_titanic(df):
+def prep_titanic_data(df):
 
     # drop the deck column bc most values Null
     drop_columns(df)
