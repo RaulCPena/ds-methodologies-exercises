@@ -70,9 +70,10 @@ def ohe_columns(train, test):
     
     return ohe, train, test
 
-def prep_titanic_data(df):
 
-    # drop the deck column bc most values Null
+def prep_titanic(df):
+
+#     drop the deck column bc most values Null
     drop_columns(df)
     
     train, test = train_test_split(df, train_size=.75, stratify=df.survived, random_state=123)
@@ -93,3 +94,5 @@ def prep_titanic_data(df):
     ohe, train, test = ohe_columns(train, test)
     
     return scaler, ohe, train, test
+ 
+
